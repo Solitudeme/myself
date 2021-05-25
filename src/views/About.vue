@@ -3,6 +3,7 @@
     <h1>This is an about page</h1>
     <h3 class="font" @click="onClick_all">All url</h3>
     <p class="font" @click="onClick_promise">promise</p>
+    <router-link to="/nodeList" class="font">nodeList</router-link>
   </div>
 </template>
 <script>

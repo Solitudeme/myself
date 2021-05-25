@@ -18,6 +18,11 @@ const routes = [
     component:()=> import('../views/promise.vue')
   },
   {
+    path:'/nodeList',
+    name:'nodeList',
+    component:()=> import('../views/nodeList.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
