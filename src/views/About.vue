@@ -4,6 +4,8 @@
     <h3 class="font" @click="onClick_all">All url</h3>
     <p class="font" @click="onClick_promise">promise</p>
     <router-link to="/nodeList" class="font">nodeList</router-link>
+    <router-link to="/async" class="font">async</router-link>
+    <router-link to="/class" class="font">class</router-link>
   </div>
 </template>
 <script>
@@ -27,6 +29,7 @@ export default {
 
 <style lang="scss" scoped>
 .font{
+  display: block;
   font-size:20px;
   color:red;
   cursor: pointer;
